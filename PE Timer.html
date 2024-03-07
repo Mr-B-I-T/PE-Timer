@@ -96,7 +96,15 @@
     <div id="meeting">Meeting</div>
     <div id="changeover">Change Over</div> 
     <br>
-    <button class="button button1">Enable Audio</button>
+    <button class="button button1", id="myButton">Enable Audio</button>
+    
+<script>
+  const button = document.getElementById("myButton");
+  button.addEventListener("click", () => {
+    button.style.display = "none";
+  });
+</script>
+    
     <audio id="audio">
       <source src = "bell.mp3"> 
     </audio>  
