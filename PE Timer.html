@@ -23,7 +23,20 @@
             justify-content: center;
             height: 100vh;
         }
-
+        .button{
+            background-color: #4A7729; /* Green */
+          border: none;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        .button1 {border-radius: 12px;}
+        
         h1 {
             color: #4A7729;
             font-size: 50px;
@@ -72,6 +85,8 @@
     <br><br>
     <div id="meeting">Meeting</div>
     <div id="changeover">Change Over</div> 
+    <br>
+    <button class="button button1">Enable Audio</button>
     <audio id="audio">
       <source src = "bell.mp3"> 
     </audio>  
