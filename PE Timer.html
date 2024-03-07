@@ -24,7 +24,7 @@
             height: 100vh;
         }
         .button{
-            background-color: #4A7729; /* Green */
+            background-color: red
             border: none;
             color: white;
             padding: 20px;
@@ -39,8 +39,8 @@
         .button1 {border-radius: 12px;}
         .button1:hover{
             background-color:white;
-            color:#4A7729;
-            border:2px solid #4A7729;
+            color:red;
+            border:2px solid red;
         }
         .button1:active{
             transform: translateY(6px);
@@ -91,11 +91,6 @@
 </head>
 <body>
     <h1>Welcome to Heath Mount School <br> Parents' Evening</h1>
-    <div id="clock"></div>
-    <br><br>
-    <div id="meeting">Meeting</div>
-    <div id="changeover">Change Over</div> 
-    <br>
     <button class="button button1", id="myButton">Enable Audio</button>
     
 <script>
@@ -104,6 +99,12 @@
     button.style.display = "none";
   });
 </script>
+    <div id="clock"></div>
+    <br><br>
+    <div id="meeting">Meeting</div>
+    <div id="changeover">Change Over</div> 
+    <br>
+    
     
     <audio id="audio">
       <source src = "bell.mp3"> 
